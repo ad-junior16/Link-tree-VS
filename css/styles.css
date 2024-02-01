@@ -111,19 +111,19 @@ section {
     }
 
     15% {
-        transform: rotate(-13deg);
+        transform: rotate(-14deg);
     }
 
     20% {
-        transform: rotate(13deg);
+        transform: rotate(14deg);
     }
 
     25% {
-        transform: rotate(-13deg);
+        transform: rotate(-14deg);
     }
 
     35% {
-        transform: rotate(13deg)
+        transform: rotate(14deg)
     }
 
     40%,
