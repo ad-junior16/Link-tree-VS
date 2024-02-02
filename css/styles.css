@@ -47,6 +47,7 @@ section {
     border: 1px solid #CCCBC7;
     border-radius: 1rem;
     flex-wrap: wrap;
+    transition: background-color 0.5s ease;
 }
 
 .tree {
@@ -72,7 +73,7 @@ section {
 
 .bx3 {
     margin-top: 2.8rem;
-    
+
 
 }
 
@@ -100,6 +101,39 @@ section {
     height: 2rem;
     animation: wiggle 2.2s linear infinite;
 }
+
+.box:hover {
+    background-color: #131313;
+}
+
+
+
+@media (min-width: 700px) {
+
+    .logo img {
+        width: 13rem;
+        height: 13rem;        
+    }
+
+    .logo h1 {
+        font-size: 1.8rem;
+        
+    }
+    
+    .box {
+        width: 30rem;
+        
+    }
+
+    .social {
+        width: 30rem;
+    }
+     
+}
+
+
+
+
 
 
 
